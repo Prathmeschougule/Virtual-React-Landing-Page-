@@ -5,13 +5,13 @@ function FeaturSection() {
   return (
     <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
       <div className="text-center">
-        <span className="font-medium text-sm h-6 py-2 px-3 bg-gray-800 rounded-full text-orange-700 uppercase">
+        <span className="  font-medium text-sm h-6 py-2 px-3 bg-gray-800 rounded-full text-orange-700 uppercase">
           feature
         </span>
-        <h2 className="text-3xl sm:5xl lg:6xl mt-10 lg:mt-20 tracking-widest">
-          Easy To Build
+        <h2 className="text-4xl sm:5xl  mt-10 lg:mt-20">
+          Easy to build
           <span className="bg-gradient-to-r from-orange-500 to-orange-900 text-transparent bg-clip-text">
-            {"  "}Your Code
+            {"  "}your code
           </span>
         </h2>
       </div>
