@@ -1,5 +1,6 @@
 import React from 'react'
-import { CheckCheckIcon } from 'lucide-react'
+import { CheckCheckIcon, CheckCircle2 } from 'lucide-react'
+import { checklistItems } from '../Constant'
 
 function WorkFlow() {
   return (
@@ -14,8 +15,24 @@ function WorkFlow() {
             <div className='p-2 w-full lg:w-1/2'>
                 <img src="/src/assets/code.jpg" alt="code img " />
             </div>
-            <div className=''>
+            <div className='p-12 w-full lg:w-1/2'>
+                  {checklistItems.map((item,index)=>(
 
+                    <div key={index} className='flex mb-12'>
+                        <div className='text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 rounded-full justify-center  items-center'>
+                              <CheckCircle2/>
+                        </div>
+                        <div className='text-left'>
+                           <h5 className='mt-1 mb-2 text-xl'>
+                            {item.title}
+                           </h5>
+
+                           <p className="text-sm  text-neutral-500 ">
+                            {item.description}
+                           </p>
+                        </div>
+                    </div>
+                  ))}
             </div>
         </div>
       </h2>

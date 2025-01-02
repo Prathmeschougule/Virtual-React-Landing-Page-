@@ -3,6 +3,9 @@ import Navbar from './Componets/Navbar'
 import HeroSection from './Componets/HeroSection'
 import FeaturSection from './Componets/FeaturSection'
 import WorkFlow from './Componets/WorkFlow'
+import Princing from './Componets/Princing'
+import Testomonial from './Componets/Testomonial'
+import Footer from './Componets/Footer'
 
 
 
@@ -16,6 +19,10 @@ function App() {
            <HeroSection/>
            <FeaturSection/>
            <WorkFlow/>
+           <Princing/>
+           <Testomonial/>
+           <Footer/>
+
       </div>
      
    </>

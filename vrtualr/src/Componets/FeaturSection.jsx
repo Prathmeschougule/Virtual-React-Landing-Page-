@@ -8,7 +8,7 @@ function FeaturSection() {
         <span className="  font-medium text-sm h-6 py-2 px-3 bg-gray-800 rounded-full text-orange-700 uppercase">
           feature
         </span>
-        <h2 className="text-4xl sm:5xl  mt-10 lg:mt-20">
+        <h2 className="text-4xl sm:5xl  mt-10 lg:mt-20 tracking-wider">
           Easy to build
           <span className="bg-gradient-to-r from-orange-500 to-orange-900 text-transparent bg-clip-text">
             {"  "}your code
